@@ -46,3 +46,42 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+
+# Node dependencies
+node_modules/
+
+# NPM logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Vite cache
+.vite/
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# WordPress debug logs
+debug.log
+
+# WordPress uploads - don't commit user media
+
+# Build output: KEEP dist tracked for deployment
+# Do NOT add dist/ here
